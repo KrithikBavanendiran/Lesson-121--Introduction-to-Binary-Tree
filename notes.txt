@@ -1,0 +1,22 @@
+The Binary Tree is a tree data sturcture.
+Each node has ethier 0, 1 or 2 child nodes.
+The topmost node is called the root.
+If there is no children below a node it is a leaf.
+2 nodes from the same node are sibling nodes.
+The maximum number of nodes at level 'l' is 2^l
+The maximum number of nodes of height 'h' is 2^h - 1
+The minimum number of nodes at level 'n' is log2^(N+1)
+
+Advantages of a binary Tree:
+The searching operation is very efficient in binary tree.
+Its representation is easy to understand and it has a hierarchical structure.
+It is easy to implement in such a way that efficient data storing management is followed.
+It may consist of any amount of children nodes but parent node is one 
+, so we can traverse the tree from parent node to child node and vice-versa.
+
+Disadvantages of Binary Tree:
+The operations on binary tree depends on height of three.
+May cause null pointer error.
+
+Post order
+Visit left, right then root
